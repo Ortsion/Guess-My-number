@@ -1,0 +1,29 @@
+html, body {
+    text-align: center;
+    height: 100%;
+    font-family: fantasy;
+    background-color:rgb(112, 241, 112) ;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    background-color: rgb(38, 17, 231);
+    color: white;
+    font-size: 3em;
+    border-radius: 15px;
+    box-shadow: palegreen;
+    width: 30%;
+    height: 10%;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(38, 17, 231);
+    transform: scale(1.1);
+}
